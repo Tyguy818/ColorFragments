@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFF00"
+    android:paddingTop="36dp"
+    android:paddingBottom="36dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/blueText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BLUE FRAGMENT"
+            android:background="#9696FF"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/redText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RED FRAGMENT"
+            android:background="#FF9696"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+</FrameLayout>
