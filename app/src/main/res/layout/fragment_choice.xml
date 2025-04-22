@@ -2,8 +2,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#FFFF00"
-    android:paddingTop="36dp"
-    android:paddingBottom="36dp"
+    android:paddingTop="70dp"
+    android:paddingBottom="70dp"
     >
 
     <LinearLayout
