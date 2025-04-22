@@ -29,6 +29,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:paddingTop="3dp"
             android:paddingBottom="3dp"
+            android:layout_weight="1"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -45,7 +46,7 @@
         android:id="@+id/lowerfragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8"
+        android:layout_weight="4"
         />
 
 </LinearLayout>
